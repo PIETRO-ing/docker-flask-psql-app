@@ -1,0 +1,5 @@
+flask
+pandas
+sqlalchemy
+logging
+psycopg2-binary
