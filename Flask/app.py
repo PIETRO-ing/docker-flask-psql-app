@@ -41,7 +41,7 @@ def view_table():
         raise
 
 
-@app.route('/insert_data')
+@app.route('/add_data_code')
 def insert_data():
 
     POSTGRES_USER = os.environ.get('POSTGRES_USER')
@@ -150,10 +150,6 @@ def add_data_url():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
 
-
-# curl -X POST http://127.0.0.1:5000/add_data_post \
-     # -H "Content-Type: application/json" \
-     # -d '{"city": "Oslo", "temperature": 19}'
 
 
 
