@@ -5,6 +5,6 @@ The project is a Dockerized Flask application with PostgreSQL integration, provi
             
  ## How to send a POST request with command line       
 
-curl -X POST <url/add_data_post> \
+` curl -X POST <url/add_data_post> \
      -H "Content-Type: application/json" \
-     -d '{"city": "Oslo", "temperature": 19}'
+     -d '{"city": "Oslo", "temperature": 19}'` 
